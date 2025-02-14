@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آپلود سوالات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>آپلود سوالات</h2>
+
+    <!-- دسته بندی ها -->
+    <div class="category-section">
+        <h3>دسته بندی ها</h3>
+
+        <!-- بخش برای هر دسته -->
+        <div class="category" id="category1">
+            <h4>محاسبات اعداد گویا</h4>
+            <form id="uploadForm-category1">
+                <input type="password" name="password" placeholder="رمز عبور" required>
+                <input type="file" name="file" required>
+                <button type="submit">آپلود</button>
+            </form>
+            <ul id="category1List"></ul>
+        </div>
+
+        <!-- همینطور برای سایر دسته‌ها -->
+    </div>
+
+    <script src="upload.js"></script>
+</body>
+
+</html>
